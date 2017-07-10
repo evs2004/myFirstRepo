@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21" started-at="2017-07-05T22:52:38Z" finished-at="2017-07-05T22:52:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21" started-at="2017-07-05T22:52:38Z" finished-at="2017-07-05T22:52:38Z">
+      <class name="com.testng.examples.RemoveCharTest">
+        <test-method status="PASS" signature="testBuiltinFuncApproach()[pri:0, instance:com.testng.examples.RemoveCharTest@7ca48474]" name="testBuiltinFuncApproach" duration-ms="8" started-at="2017-07-05T15:52:38Z" finished-at="2017-07-05T15:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuiltinFuncApproach -->
+        <test-method status="PASS" signature="testIllegalArguments()[pri:0, instance:com.testng.examples.RemoveCharTest@7ca48474]" name="testIllegalArguments" duration-ms="1" started-at="2017-07-05T15:52:38Z" finished-at="2017-07-05T15:52:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.testng.examples.RemoveChar.RemoveCharInstance(RemoveChar.java:9)
+	at com.testng.examples.RemoveCharTest.testIllegalArguments(RemoveCharTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIllegalArguments -->
+        <test-method status="PASS" signature="testIterativeApproach()[pri:0, instance:com.testng.examples.RemoveCharTest@7ca48474]" name="testIterativeApproach" duration-ms="1" started-at="2017-07-05T15:52:38Z" finished-at="2017-07-05T15:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIterativeApproach -->
+      </class> <!-- com.testng.examples.RemoveCharTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
